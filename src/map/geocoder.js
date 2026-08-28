@@ -1,7 +1,7 @@
 export async function searchLocation(query, opts = {}) {
 	if (!query || query.length < 2) return [];
 
-	const { limit = 15, signal } = opts;
+	const { limit = 50, signal } = opts;
 
 	try {
 		const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=${limit}&addressdetails=1`;

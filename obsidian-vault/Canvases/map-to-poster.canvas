@@ -1,0 +1,14 @@
+{
+	"type":"canvas",
+	"version":"1.0",
+	"nodes":[
+		{"id":"n1","type":"note","x":50,"y":40,"w":360,"h":120,"file":"00-Project-Overview.md","title":"Project Overview"},
+		{"id":"n2","type":"note","x":450,"y":40,"w":360,"h":160,"file":"Notes/core-state.md","title":"state.js"},
+		{"id":"n3","type":"note","x":50,"y":220,"w":360,"h":140,"file":"Notes/core-themes.md","title":"themes.js"},
+		{"id":"n4","type":"note","x":450,"y":240,"w":360,"h":140,"file":"Notes/core-utils.md","title":"utils.js"},
+		{"id":"n5","type":"note","x":50,"y":420,"w":360,"h":140,"file":"Notes/map-map-init.md","title":"map-init.js"},
+		{"id":"n6","type":"note","x":450,"y":420,"w":360,"h":140,"file":"Notes/map-marker-manager.md","title":"marker-manager.js"},
+		{"id":"n7","type":"note","x":250,"y":620,"w":360,"h":140,"file":"Notes/ui-form.md","title":"form.js"}
+	],
+	"edges":[]
+}
