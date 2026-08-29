@@ -14,6 +14,15 @@ export function setupCustomThemeModal(state, updateState, getSelectedArtisticThe
 	const editor = document.getElementById('custom-theme-modal');
 	let editingKey = null;
 
+		const closeArtisticFuncs = [
+		document.getElementById('close-artistic-modal'),
+		document.getElementById('close-artistic-modal-btn'),
+		document.getElementById('artistic-modal-overlay'),
+	];
+	closeArtisticFuncs.forEach((el) => {
+		el?.addEventListener('click', () => modal?.classList.remove('show'));
+	});
+
 	fields.forEach(([id]) => {
 		const picker = document.getElementById(id);
 		const hex = document.getElementById(`${id}-hex`);
